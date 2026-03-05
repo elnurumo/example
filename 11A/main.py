@@ -1,0 +1,1300 @@
+# # # # Collatz sanısı
+
+# # # # cüt ---> x/2
+# # # # tek ---> 3*x+1
+# # # # 4,2,1
+
+# # # n = int(input())
+# # # s = 0
+# # # while n!=1:
+# # #     s = s + n
+# # #     if n%2==0:
+# # #         n = n//2
+# # #     else:
+# # #         n = 3*n+1
+# # # s = s + 1
+# # # print(s)
+
+# # # 118
+
+# # # n = input() #'aAaa'
+# # #             # 0123
+# # # b = n[0] # a
+# # # f = 0
+# # # for i in n:
+# # #     if b!=i:
+# # #         f = 1
+# # # if f == 1:
+# # #     print('Eyni deyil')
+# # # else:
+# # #     print('Eynidir')    
+
+
+# # # 2-ci gün əlavə
+# # # 10:00 - 12:00
+# # # 17:00 - 19:00 
+
+# # # codera
+# # # 10.5
+# # #
+
+
+
+# # # * -vurma
+# # # / - bölmə
+# # # // - tam bölmə
+# # # % bölür qalıqı tapır
+# # # ** - qüvvət üstün tapır
+
+# # # if Elif Else
+
+# # a = 5
+# # b = 10
+# # c = 20
+# # if a<b:
+# #     print('1')
+# #     if a<c:
+# #         print('2')
+# #     if a>c:
+# #         print('3')
+# # if a<c:
+# #     print('4')
+
+# # 101
+
+
+# # 108
+
+# # n = int(input('Ad günün ay sırasın daxil et: '))
+# # if n==12 or n==1 or n==2:
+# #     print('Sizin ad gününüz qışdadır.')
+# # elif 2<n<6:
+# #     print('Sizin ad gününüz Yazdadır.')
+# # elif 5<n<9:
+# #     print('Sizin ad gününüz Yaydadır.')
+# # elif 8<n<12:
+# #     print('Sizin ad gününüz Payızdadır.')
+# # else:
+# #     print('Düzgün ay sırası daxil et!!!!')
+
+
+# # kitab   info
+# # 01234   0123
+# #   t       0
+
+# # n = input()
+# # le = len(n)
+# # if le%2==0:
+# #     print(0)
+# # else:
+# #     print(n[le//2])
+
+# # # list
+# # a = [3,4,5,6,7]
+# # for i in range(0,len(a)):
+# #     if i == 2:
+# #         a[i]=10
+# # print(a)
+# # # str
+# # a = '34567'   
+# # s = ''
+# # for i in range(0,len(a)):
+# #     if i == 2:
+# #         s = s + '10'
+# #     else:
+# #         s = s + a[i]
+# # a = s
+# # print(a)
+
+# # # Dinamik
+# # a = 5
+# # a = 'Salam'
+# # print(a)
+
+# # a = 'Hello'
+# # i = 1
+# # # # for , while
+# # while i<=100:
+# #     print(f'{i}. {a}')
+# #     i = i+1
+
+# # for i in range(100):
+# #     print(i+1,'.', a)
+
+# # integer, float, string, array,boolean
+# # Boolean -- True, False
+# # Array (List) --- [3,4,5,7,'alma']
+# # String ---  'salam',  "Salam"
+# # float --- 2.5, 5.0
+# # integer --- 5,6 tam ədədlər
+
+# # a = 25
+# # print(a**0.5)
+
+# # a) 5   b) 5.0
+
+
+# # a = 5
+# # b = 6
+
+# # print(a+b) # 11
+# # print('a'+'b') # 56 ab
+# # # print('a+b') # a+b
+
+# # # print("Abbaslı Fəxri",sep='\n')
+
+
+# # a = 'Valide Aslanova'
+# # a = a.lower()
+# # s = a.count('a')
+# # print(s)
+
+
+# # upper
+# # lower
+# # capitalize
+# # count
+# # find
+# # replace
+# # strip
+
+# # a = 'salam'
+# # s = a.index('a',2,4)
+# # print(s)
+
+# # a = 'salam necesen'
+# # a = a.split('')
+# # print(a)
+
+# # a = [1,2,3]
+# # a = '5'.join(a)
+# # print(a)
+
+# # n = int(input())
+# # a = n-1 
+# # b = n+1
+# # if n % 2 == 0 :
+# #     print(a , b , "tekdiler")
+# # else :
+# #     print(a , b, "cutduler"
+
+
+# # x = int(input()
+# # if x <= 5 :
+# #     y=abs(x+2) + 3x
+# # elif x>7 :
+# #     y=(x**3)-2
+# # else : 
+# #     y=((3x**4)**0,5)+10
+# # print(y)
+
+ 
+
+
+# #  a = int(input())
+# #  b = int(input())
+# #  c = int(input())
+# #  if a==b and b==c and a==c :
+# #       print(3)
+# # elif a==b or a==c or b==c :
+# #       print(2)
+# # else :
+# #       print(0)
+
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# if b<a<c :
+#     print(a)
+# elif a<b<c :
+#     print(b)
+# else :
+#     print(c)
+
+# x = int(input())
+# if x<100 :
+
+
+# 123
+
+# print(1-0.8)
+
+# n = float(input()) 
+# m = str(n)
+# l = len(m)-2
+# print(l)
+# n = n*10**l
+# t = n//10**l
+# k = n%10**l/10**l
+# print(t,k)
+
+
+# İxtiyari bir ədəd daxil edilir və istifadəçi həmin ədədin sağına və soluna ixtiyari bir söz yaza bilər(hərf,rəqəm,simvol) Bunu Python kodu ilə düzəldin.
+# Giriş
+# 245     
+# Çıxış
+# Salam245Salam
+
+# k=int(input())
+# d=''
+# b=(input()).lower()
+# c='abcdefghijklmnopqrstuvwxyz'
+# for i in b:
+#     d=d+c[(c.find(i)+k)%len(c)]
+# print(d)
+
+
+# n = int(input())
+# a,b = 0,1
+# for i in range(n):
+#     a , b = b, b+a
+# print(a)
+
+
+# a=int(input())
+# b = [0,1]
+# i = 0
+# while len(b)<=a:
+#     c = b[i] + b[i+1]
+#     b.append(c)
+#     i = i + 1
+# print(b[a-1])
+
+
+
+# 120
+
+# pul = float(input())
+# keksQiymet = float(input())
+# keksSayi = pul//keksQiymet
+# pulQaliq = pul - keksQiymet*keksSayi
+# print(keksSayi,pulQaliq)
+
+# # 118
+# # 1-ci üsul
+# n = input() #aaaa
+# if n.count(n[0]) == len(n):
+#     print('eynidir')
+# else:
+#     print('eyni deyil')
+
+# # 2-ci üsul
+
+# n = input() # aaAa
+# m = n[0] #a
+# f = 0
+# for i in n:
+#     if i!=m:
+#         f = 1
+# if f == 1:
+#     print('Eyni deyil')
+# else:
+#     print('eynidir')
+
+
+# 133
+
+# n = int(input())
+# sade_vuruq = 2
+# while n>1:
+#     if n%sade_vuruq == 0:
+#         n = n//sade_vuruq
+#         print(sade_vuruq)
+#     else:
+#         sade_vuruq = sade_vuruq+1
+
+
+# n = int(input())
+# l = []
+# sade_bolen = 2
+# while n>1 :
+#     if n%sade_bolen == 0 :
+#         n=n//sade_bolen
+#         if l.count(sade_bolen)== 0:
+#             l.append(sade_bolen)
+#     else :
+#         sade_bolen=sade_bolen+1
+# print(l)
+
+# n=int(input())
+# n=n+1
+# while n%2==0 or n%3==0 or n%5==0 :
+#     n=n+1
+# print(n)
+
+
+# n=int(input())
+# s=0
+# for i in range(1,n+1) :
+#     s=s+1/(i**2)
+# print(s)
+
+# n=int(input())
+# s=0
+# for i in range(1,n+1):
+#     s=s+(1/n)**n
+# print(s)
+
+# 
+
+
+# n=int(input())
+# s=0
+# for i in range(0,n):
+#     a=int(input())
+#     s=s+a
+# print(s/n)
+
+# n=int(input())
+# l=[]
+# for i in range(0,n):
+#     a=int(input())
+#     l.append(a)
+# print(max(l))
+
+# 
+
+
+# l=[]
+# for i in range(1,1000):
+#     if i%2==1 :
+#         l.append(i)
+# print(l) 
+
+# a=[]
+# l=[15,12,16,11,9]
+# for i in l:
+#     if i%2==1 :
+#         k=i**2
+#         a.append(k)
+# print(a)
+
+
+# s=0
+# for i in range(1,100):
+#     b=str(i)
+#     if b.count('3')>0:
+#         s=s+b.count('3')
+# print(s)
+
+# n=int(input())
+# c=[]
+# t=[]
+# for i in range(0,n):
+#     k=int(input())
+#     if k%2==0 :
+#         c.append(k)
+#     else :
+#         t.append(k)
+# print(c,t)
+
+# n=int(input())
+# s=0
+# while n%10==
+#     s=s+1
+#     n=n//10
+# print(s)
+
+# n = input()
+# n = n.split('2')
+# n = '1'.join(n)
+# print(n)
+
+
+# # 28
+
+# x = float(input())
+# a = float(input())
+# b = float(input())
+# if a<=x<=b:
+#     print('Yes')
+# else:
+#     print('No')
+
+# # 29
+# n = int(input())
+# i = 1
+# f = 1
+# while f<n:
+#     f = f * i
+#     i = i+1
+# if n == f:
+#     print('Beli')
+# else:
+#     print('Xeyr')
+
+# 30
+
+# n = int(input())
+# k = len(str(n))
+# b = []
+# while n>0:
+#     a = n%10
+#     if a%2!=0:
+#         b.append(a)
+#     n = n//10
+# if len(b) == k:
+#     print('Yes')
+# else:
+#     print('No')
+
+# n = int(input())
+# n = str(n)
+# f = 0
+# for i in n:
+#     if int(i)%2==0:
+#         f =1
+# if f == 0:
+#     print('yes')
+# else:
+#     print('No')
+
+# a = '111'
+# #    012
+# b = '12'
+# #    01
+# print(b>a)
+# a = ['111','12','A1','a2','aa','b','b1','d3']
+# a.sort()
+# print(a)
+
+# a = 'anar'
+# s1 = a[a.count('a')] + a[a.count('a')]
+# print(s1)
+
+# setirler
+# 97,99,98,122,123
+
+
+
+
+# aylar = [
+#     'Yanvar',
+#     'Fevral',
+#     'Mart',
+#     'Aprel',
+#     'May',
+#     'Iyun'
+# ]
+# sell =[]
+# for i in range(len(aylar)):
+#     sellCount = int(input())
+#     sell.append(sellCount)
+# f = 0
+# for i in range(1,len(sell)-1):
+#     if sell[i-1]<sell[i]>sell[i+1]:
+#         print(aylar[i],':',sell[i],'ədəd')
+#         f = 1
+# if f == 0:
+#     print('Uğurlu ay yoxdur')
+
+# # 170
+
+# n = input().split()
+# m = []
+# c = []
+# d = []
+# for i in n:
+#     m.append(len(i))
+# maxi1 = max(m)
+# for i in m:
+#     if i != maxi1:
+#         c.append(i)
+# maxi2 = max(c)
+# for i in n:
+#     if maxi2 == len(i):
+#         if d.count(i) == 0:
+#             d.append(i)
+# print(d)
+
+# # 175
+
+# n = int(input())
+# n = str(n)
+# a = n[0]
+# b = n[len(n)-1]
+# if a>b:
+#     print(a+b)
+# else:
+#     print(b+a)
+
+
+# # 167
+
+# hefteler = [
+#     'Bazar ertesi',
+#     'Çərşənbə axşamı',
+#     'Çərşənbə',
+#     "Cümə axşamı",
+#     "Cümə",
+#     "Şənbə",
+#     "Bazar"
+# ]
+# n = int(input())
+# hG = n%7 - 1
+# print(hefteler[hG])
+
+
+# 168
+
+# b = input() # ['12' '24' '35' '47']
+# a = b.split()
+# c =[]
+# for i in a:
+#     if i[0] == '4':
+#         c.append(int(i))
+# print(sum(c))
+
+
+# 1
+
+# n = int(input())
+# if n>0:
+#     n = str(n)
+#     n = '1'.join(n)
+#     n = int(n)**2
+#     print(n)
+
+# n = int(input())
+# n = str(n)
+# s = ''
+# for i in range(0,len(n)):
+#     if i == len(n)-1:
+#         s = s + n[i]
+#     else:
+#         s = s + n[i]+'1'
+# print(int(s)**2)
+    
+
+# n = int(input())
+# a = []
+# for i in range(n):
+#     x = int(input())
+#     a.append(x)
+#     a[i] = a[i]*-1
+# print(a)
+
+
+# 2
+
+# a = input().split()
+# b = input().split()
+# c = []
+# for i in a:
+# #     if b.count(i) > 0 and c.count(i) == 0:
+# #         c.append(i)
+# # print(c,len(c))
+
+# # 143
+
+# n = int(input()) # 208
+# n = str(n) # '208'
+# m = max(n)
+# if m<'8':
+#     print('Mövcuddur')
+# else:
+#     print('Mövcud deyil')
+ 
+# # 142
+
+# n = int(input())
+# n = str(n)
+# onluq = 0
+# L = len(n)-1
+# for i in n:
+#     onluq = onluq + int(i)*2**L
+#     L = L-1
+# s = ''
+# while onluq>0:
+#     q = onluq%8
+#     s = str(q) + s
+#     onluq = onluq//8
+# print(s)
+
+# # 142
+# n = int(input())
+# n = str(n)
+# l = len(n)
+# if l%3==1:
+#     n = '00'+n
+# elif l%3 == 2:
+#     n = '0' + n
+# s = ''
+# for i in range(0,len(n),3):
+#     s = s + str(int(n[i])*4+int(n[i+1])*2+int(n[i+2]))
+# print(s)
+
+
+# sinaq 8
+# 29,30
+
+# 28
+
+# s = input()
+# c = 0
+# for i in range(len(s)):
+#     if s[i] == 'a':
+#         c = c + i
+# print(c)
+
+# 29
+
+# n = input()
+# s = ''
+# b = []
+# for i in n:
+#     if '0'<=i<='9':
+#         s = s + i
+#     else:
+#         if s != '':
+#             b.append(int(s))
+#             s = ''
+# if s != '':
+#     b.append(int(s))
+# print(sum(b))
+
+# n = 'Salam123necesen34sagol9'
+
+
+# sinaq 9
+# 29,30
+
+
+# # 
+# n = 'salam'
+# s = ''
+# for i in range(len(n)):
+#     s = s + str(i)
+# n = s
+# print(n)
+
+
+# a = [2,3,4,5]
+# for i in range(len(a)):
+#     a[i] = 'salam'
+# print(a)
+
+
+# # 30
+
+# ls = [23,45,623,123,5,67,89,34,12,45,678]
+# for i in range(len(ls)):
+#     s = ''
+#     if i%2!=0 and ls[i]%2==0:
+#         while ls[i]>0:
+#             q = ls[i]%8
+#             s = str(q)+s
+#             ls[i] = ls[i]//8
+#         print(s)
+
+# 28
+
+
+# 
+
+# a,b = 10,20
+# a,b = b,a+b
+
+# # 0,1,1,2,3,5,8,13
+
+
+# toplu
+
+# part 1
+# # 12
+
+# def simpleOrCompound(n):
+#     f = 0
+#     for i in range(2,n//2+1):
+#         if n%i==0:
+#             f = 1
+#     return f
+
+# def sumNumber(n):
+#     n = str(n)
+#     s = 0
+#     for i in n:
+#         i = int(i)
+#         s = s + i
+#     return s
+        
+
+# n = int(input())
+# if n != 1:
+#     f = 0
+#     if simpleOrCompound(n) == 0:
+#         n = n+1
+#         while simpleOrCompound(n) == 1:
+#             n=n+1
+#         print(sumNumber(n))
+#     else:
+#         n = n -1
+#         while simpleOrCompound(n) == 1:
+#             n = n-1
+#         print(sumNumber(n))
+# else:
+#     print('Başqa eded ver')
+
+
+# Loop
+
+
+
+# 137
+
+# x = int(input())
+# n = int(input())
+# s = 0
+# f = 1
+# for i in range(1,n+1,1):
+#     f = f * i
+#     s = s + ((-1)**(i+1)*x**i)/f
+# print(s)
+
+# # 140
+
+# n = input() # Dim9912info2
+# r = '0123456789'
+# s = 0
+# for i in n:
+#     if r.count(i) == 1:
+#         s = s + 1
+# print(s) 
+
+# # 151
+
+# for n in range(10,100):
+#     a = n//10
+#     b = n%10
+#     if a+b == a*b:
+#         print(n)
+
+
+# # 5
+
+# n = input().split() # ['salam','necesen']
+# saitler = 'aıoueəiöü'
+# qalın = "aıou"
+# s = 0
+# t = 0
+# for i in n:
+#     b = []
+#     for j in i:
+#         if saitler.count(j)==1:
+#             b.append(j)
+#     for j in b:
+#         if qalın.count(j) == 1:
+#             s = s + 1
+#         else:
+#             t = t + 1
+#     if len(b) == s or len(b) == t:
+#         print(i)
+
+# 'salam,qardashim,alma'
+
+
+
+# 150
+# s=0
+# c=[]
+# b=input()
+# for i in b:
+#     if i=="a":
+#         s=s+1
+#     else:
+#         c.append(s)
+#         s=0
+# print(max(c))
+
+# s=0
+# for i in range(1000,10000):
+#     a=i//1000
+#     b=i//100%10
+#     c=i//10%10
+#     d=i%10
+#     if a%2==1 and b%2==1 and c%2==1 and d%2==1:
+#         s=s+i
+# print(s)
+
+
+# n = int(input())
+# k = n
+# n = list(str(n))
+# n.sort()
+# n = ''.join(n)
+# n = int(n)
+# if n==k:
+#     print('Yes')
+# else:
+#     print('No')
+
+
+
+# 
+
+# # Binary search
+# def binary_search(arr,target):
+#     left = 0
+#     right = len(a)-1
+#     while left<=right:
+#         mid = (left+right)//2
+#         if a[mid] == n:
+#             return a[mid]
+#         elif a[mid]<n:
+#             left = mid + 1
+#         else:
+#             right = mid - 1
+#     return -1
+# a = [1,3,5,7,11,13,15,27,30,40,55,67]
+# n = int(input())
+# print(binary_search(a,n))
+
+
+    
+# # Bubble sort
+
+# a = [7,3,5,2]
+# n = len(a)
+# for i in n:
+#     for j in range(0,n-i-1):
+#         if a[j] > a[j+1]:
+#             temp = a[j]
+#             a[j] = a[j+1]
+#             a[j+1] = temp
+# print(a)
+
+# n = input().split()
+# a = int(n[0])
+# b= int(n[1])
+# c = int(n[2])
+# print(a**b%c)
+
+# def f(x,elnur):
+#     x = 5
+#     return x+elnur
+    
+# x = 6
+
+# print(f(x,5))
+
+# b = []
+# b = b.append(10)
+# print(b)
+
+
+# n = int(input(),base=2)
+# print(n)
+
+
+# a = [2,3,4,5] # qaydasiz
+# b = a
+# a.reverse()
+# if a==b:
+#     print('1')
+# else:
+#     print('0')
+
+
+# def whiteOrBlack(x,y):
+#     if x%2==0 and y%2==0 or x%2!=0 and y%2!=0:
+#         n = 'Black'
+#     else:
+#         n = 'White'
+#     return n
+# x = int(input())
+# y = int(input())
+# x1 = int(input())
+# y1 = int(input())
+# if whiteOrBlack(x,y) == whiteOrBlack(x1,y1):
+#     print('Yes')
+# else:
+#     print('No')
+
+
+# x = int(input())
+# y = int(input())
+# x1 = int(input())
+# y1 = int(input())
+
+
+# n = input() # aaaaa
+# s = 1
+# b = []
+# for i in range(0,len(n)-1):
+#     if n[i] == n[i+1]:
+#         s = s + 1
+#         if i == len(n)-2:
+#             b.append(s)
+#     else:
+#         b.append(s)
+#         s = 1
+# print(max(b))
+
+
+# shebeke
+
+# n = input().split()
+# b = []
+# for i in range(len(n)):
+#     n[i] = int(n[i])
+# for i in n:
+#     if n.count(i) >=2:
+#         b.append(i*2)
+#     if n.count(i) >= 3:
+#         b.append(i*3)
+# if len(b) == 0:
+#     print(sum(n))
+# else:
+#     print(sum(n)-max(b))
+
+
+# # Klaviaturada 5 rəqəmi göndərilir
+# a = float(input())
+# a = str(a)  
+# a = a+'1' 
+# a = a *2  
+# a = a.split('0')  
+# a = '1'+'1'.join(a)  
+# print(a) 
+
+# print('a','b','c',sep='@',end=' ')
+# print('d','\ne',end='*')
+# print('c,d')  
+
+# print(5,end=' ')
+# print(6)
+
+# print('salam','necesen',sep='\n') 
+
+# print('salam\necesen')
+
+# a = 5
+# b = 6
+# print(a,b)
+
+# 13 Şəbəkə
+# 7
+# # 14 -- Ümumiləşdirici
+# # 6
+
+# # '#' simvollarının sayını tap
+# i = 1
+# while i<6:
+#     print('#')
+#     if i%2==1:
+#         print('###')
+#     if i>=4:
+#         print('#####')
+#     i = i+1
+
+# # 
+# p = 1
+# i = 3
+# while i<=10:
+#     p = p*(i%5)
+#     i = i+1
+# print(p)
+
+# # 
+# a = 84
+# b = 30
+# while a!=0 and b!=0:
+#     if a>b:
+#         a = a%b
+#     else:
+#         b = b%a
+# print(a+b)
+
+
+
+# # 
+# a = 22
+# s = ''
+# while a>0:
+#     q = a%2
+#     a = a//2
+#     s = str(q)+s
+# print(s.count('1'))
+
+# 
+# # Klaviaturdan 60 ededi daxil edilerse
+# n = int(input())
+# s = 0
+# i = 2
+# while s<n:
+#     s = s + i
+#     i = i+2
+# s = s-i+2
+# print(s)
+
+
+# a = 'salam'
+# a = a.find('a',1)
+# print(a)
+
+# a = '      salam'
+# a = a.strip()
+# print(a)
+
+# a = 'Elnurnurnurnur'
+# a = a.replace('nur','mir')
+# print(a)
+
+# a = 'aaaaabbbb'
+# a = a.replace('a','*')
+# a = a.replace('b','a')
+# a = a.replace('*','b')
+# print(a)
+
+# a = [100]
+# for i in range(5):
+#     n = len(a)+1
+#     x = int(input())
+#     a.insert(n,x)
+# print(a)
+
+# a = [2,3,4,5]
+# a.append(5)
+# join split
+# a = ['1','2','3','4']
+# a = '1'.join(a)
+# print(a)
+
+# 156
+
+# aylar = [
+#     'yanvar',
+#     'fevral',
+#     'mart',
+#     'aprel',
+#     'may',
+#     'iyun'
+# ]
+# b = []
+# f = 0
+# b = input().split()
+# for i in range(len(b)):
+#     b[i] = int(b[i])
+# for i in range(1,len(b)-1):
+#     if b[i]>b[i-1] and b[i]>b[i+1]:
+#         print(aylar[i],':',b[i],'eded')
+#         f = 1
+# if f == 0:
+#     print('Uğurlu ay yoxdur')
+
+
+
+# #
+# a = 1
+# b = 12
+# c = 0
+# while a<b:
+#     for i in range(a,b):
+#         if i%3==0:
+#             c = c + i 
+#         else:
+#             c = c - 1
+#     a = a+2
+#     b = b-3
+# print(c) 
+
+
+# 
+# 29,30
+
+
+
+# # 29
+
+# def simpleOrCompound(x):
+#     f = 0
+#     for i in range(2,x//2+1):
+#         if x%i==0:
+#             f = 1
+#     return f
+
+# a = [245,348,124,422,334,232]
+# b = []
+# for i in a:
+#     i = str(i)
+#     c = int(i[0])+int(i[2])
+#     if simpleOrCompound(c) == 0:
+#         b.append(int(i))
+# print(b)
+
+# 30
+
+# a = [1,2,3,4,5]
+# b = sum(a)
+# for i in range(len(a)):
+#     a[i] = b-a[i]
+# print(a)
+
+# a = [2,3,45,5]
+# a.append(7)
+# print(a)
+
+# def f(x):
+#     x.insert(len(x),5)
+#     return x
+        
+
+# a = [2,3,4,5]
+# a = f(a)
+# print(a)
+
+
+# 9.2 Codera
+
+# a = ['aabbbbbbbc','abc']
+# print(max(a))
+
+# a = ['2','3','4','5'] # 2345
+# a = ''.join(a)
+# print(a)
+
+# a = ['45','54','3','4']
+# # a = str(a)
+# print(a) # '['45', '54', '3', '4']'
+
+
+# Klaviaturadan n sayda elementden ibaret siyahının elementləri və k ədədi daxil edilir
+# Siyahının elementlərini yalnız k qədər artıra və ya azalda bilərsiniz. 
+# Siyahının bütün elementlərini bərabərləşdirmək üçün ən azı neçə addım lazım olduğunu 
+# tapan kodu yaz.(Bərabərləşdirmək mümkün deyilsə çapa -1 verin)
+# Nümunə
+# 1:n = 4, k = 2
+# [5,7,17,21]
+# output: 13
+
+# # [4,6,10,18] 
+
+# n = int(input()) # 4
+# k = int(input()) # 2
+# s = []
+# for i in range(n):
+#     a = int(input())
+#     s.append(a)
+# s.sort()
+# f = 0
+# for i in range(0,len(s)-1):
+#     if (s[i+1] - s[i]) % k != 0:
+#         f = 1
+# if f == 1:
+#     print(-1)
+# else:
+#     L = []
+#     for i in range(s[0],s[-1]+1,k):
+#         say = 0
+#         for j in s:
+#                 say = say+abs(i-j)//k
+#         L.append(say)
+#     print(min(L),L)
+
+
+# n = int(input())
+# k = int(input())
+
+# s = []
+# for i in range(n):
+#     s.append(int(input()))
+
+# s.sort()
+
+# # Yoxlama
+# mumkun = 1
+# for i in range(n - 1):
+#     if (s[i + 1] - s[i]) % k != 0:
+#         mumkun = 0
+
+# if mumkun == 0:
+#     print(-1)
+# else:
+#     # k-ya bölüb yeni siyahı yaradırıq
+#     t = []
+#     for i in range(n):
+#         t.append(s[i] // k)
+
+#     # Median
+#     median = t[n // 2]
+
+#     # Minimum əməliyyat sayı
+#     cavab = 0
+#     for i in range(n):
+#         cavab = cavab + abs(t[i] - median)
+
+#     print(cavab)
+
+
+
+# SINA
+
+# Aylıq sınaq
+# 4
+
+
+# a = 's'
+# print(a[-1])
+
+# a = [2,3,5,10,25]
+# m = a[0]
+# for i in a:
+#     if i>m:
+#         m = i
+# print(m)
+
+
+# # 89
+
+# n = input()
+# n = n.replace('a','*')
+# n = n.replace('b','a')
+# n = n.replace('*','b')
+# print(n)
+
+
+# 90
+
+# a = [3,4,15,9,18,16]
+# for i in a:
+#     c = i**0.5
+#     if c == int(c):
+#         print(i)
+
+
+# a = 64
+# a = a**(1/3)
+# print(a)
+
+
+
+
+
+# 29,30
+
+# # 30
+
+# n = int(input())
+# sade_vuruq = 2
+# b = []
+# while n>1:
+#     if n%sade_vuruq == 0:
+#         n = n // sade_vuruq
+#         if b.count(sade_vuruq) == 0:
+#             b.append(sade_vuruq)
+#     else:
+#         sade_vuruq = sade_vuruq+1
+# print(b)
+
+# # 29
+
+# n = input()
+# b = []
+# for i in n:
+#     if b.count(i)==0:
+#         b.append(i)
+# print(b)
+
+
+# 
